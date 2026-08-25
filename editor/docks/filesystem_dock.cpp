@@ -4531,9 +4531,11 @@ FileSystemDock::FileSystemDock() {
 	folder_colors["green"] = Color(0.502, 1.0, 0.271); // TTR("Green")
 	folder_colors["teal"] = Color(0.271, 1.0, 0.635); // TTR("Teal")
 	folder_colors["blue"] = Color(0.271, 0.843, 1.0); // TTR("Blue")
+	folder_colors["azure"] = Color(0.17, 0.44, 1.0); // TTR("Azure")
 	folder_colors["purple"] = Color(0.502, 0.271, 1.0); // TTR("Purple")
 	folder_colors["pink"] = Color(1.0, 0.271, 0.588); // TTR("Pink")
 	folder_colors["gray"] = Color(0.616, 0.616, 0.616); // TTR("Gray")
+	folder_colors["white"] = Color(1.0, 1.0, 1.0); // TTR("White")
 
 	assigned_folder_colors = ProjectSettings::get_singleton()->get_setting("file_customization/folder_colors");
 
